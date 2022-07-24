@@ -17,6 +17,8 @@ var _Person = _interopRequireDefault(require("./models/Person.js"));
 
 var _Cat = _interopRequireDefault(require("./models/Cat.js"));
 
+require("./index.css");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 var person = new _Person["default"]({
@@ -121,6 +123,15 @@ var Cat = /*#__PURE__*/function () {
 }();
 
 exports["default"] = Cat;
+      },'./index.css': function (require, module, exports) {
+        
+    var style = document.createElement('style');
+    style.appendChild(document.createTextNode(`.text {
+  color: red;
+  font-size: 30px;
+}`))
+    document.head.appendChild(style)
+  
       },'../utils/index.js': function (require, module, exports) {
         "use strict";
 

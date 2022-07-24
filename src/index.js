@@ -1,5 +1,6 @@
 import Person from './models/Person.js'
 import Cat from './models/Cat.js'
+import './index.css'
 
 const person = new Person({
   name: 'huanyu.xu',
